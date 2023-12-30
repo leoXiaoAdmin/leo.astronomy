@@ -1,0 +1,200 @@
+.bg_home {
+  /* The image used */
+  background-image: url('star_bg.png');
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_sun {
+  /* The image used */
+  background-image: url('bg_sun.png');
+
+  /* The background color */
+  background-color: black;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_mercury {
+  /* The image used */
+  background-image: url('bg_mercury.png');
+
+  /* The background color */
+  background-color: black;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_venus {
+  /* The image used */
+  background-image: url('bg_venus.png');
+
+  /* The background color */
+  background-color: black;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_earth {
+  /* The image used */
+  background-image: url('bg_earth.png');
+
+  /* The background color */
+  background-color: black;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_mars {
+  /* The image used */
+  background-image: url('bg_mars.png');
+
+  /* The background color */
+  background-color: black;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_jupiter {
+  /* The image used */
+  background-image: url('bg_jupiter.png');
+
+  /* The background color */
+  background-color: black;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_saturn {
+  /* The image used */
+  background-image: url('bg_saturn.png');
+
+  /* The background color */
+  background-color: black;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_uranus {
+  /* The image used */
+  background-image: url('bg_uranus.png');
+
+  /* The background color */
+  background-color: black;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_neptune {
+  /* The image used */
+  background-image: url('bg_neptune.png');
+
+  /* The background color */
+  background-color: black;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-font {
+  /* font */
+  color: white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+  /* The background color */
+  background-color: black;
+
+  /* opacity: 0.8; */
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: #a70000 !important;
+}
+
+.logo {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+
+.logo a img:last-child {
+  display: none;
+}
+
+.logo a:hover img:last-child {
+  display: block;
+}
+
+.logo a:hover img:first-child {
+  display: none;
+}
+
+.next {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Astronomy</title>
+    <link rel="icon" type="image/x-icon" href="../images/astronomy-high-resolution-logo-transparent.ico">
+    <link href="base.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src='https://kit.fontawesome.com/92aee3381c.js' crossorigin='anonymous'></script>
+    <script src="../js/base.js"></script>
+</head>
+<body class="bg_mars bg-font" id="hook">
+<!--<audio preload="auto" controls="controls" style="opacity: 0.5;" id="bgmusic">-->
+<!--    <source src="../../static/bgmusic/Demised-To-Shield.mp3">-->
+<!--</audio>-->
+<!--<ul id="nav-one" class="nav">-->
+<!--    <li>-->
+<!--        <a href="#">Home</a>-->
+<!--        <audio id="beep-one" controls="controls" preload="auto">-->
+<!--            <source src="../../static/bgmusic/Demised-To-Shield.mp3">-->
+<!--        </audio>-->
+<!--    </li>-->
+<!--    <li><a href="#">About</a></li>-->
+<!--    <li><a href="#">Clients</a></li>-->
+<!--    <li><a href="#">Contact Us</a></li>-->
+<!--</ul>-->
+<!--<script>var beepOne = $("#beep-one")[0];-->
+<!--$("#nav-one a")-->
+<!--	.mouseenter(function() {-->
+<!--		beepOne.play();-->
+<!--	});-->
+<!--</script>-->
+<nav class="nav nav-pills nav-fill fs-3" style="margin-top: 3%; margin-left: 1%;">
+    <span class="">
+        <a class="nav-link" style="color: #eef6a4; hover: bold;" aria-current="page" href="sun.html">
+            <img src="sun.png" style="height: 30px;">
+            Sun
+        </a>
+    </span>
+    <span class="">
+        <a class="nav-link" style="color: #eef6a4;" href="mercury.html">
+            <img src="mercury.png" style="height: 30px;">
+            Mercury
+        </a>
+    </span>
+    <span class="">
+        <a class="nav-link" style="color: #eef6a4;" href="venus.html">
+            <img src="venus.png" style="height: 30px;">
+            Venus
+        </a>
+    </span>
+    <span class="">
+        <a class="nav-link" style="color: #eef6a4;" href="earth.html">
+            <img src="earth.png" style="height: 30px;">
+            Earth
+        </a>
+    </span>
+    <span class="border-3 border-warning border-bottom rounded-5 border-top">
+        <a class="nav-link" style="color: #eef6a4;" href="mars.html">
+            <img src="mars.png" style="height: 30px;">
+            Mars
+        </a>
+    </span>
+    <span class="{{ jupiter_classes }}">
+        <a class="nav-link" style="color: #eef6a4;" href="jupiter.html">
+            <img src="jupiter.png" style="height: 30px;">
+            Jupiter
+        </a>
+    </span>
+    <span class="{{ saturn_classes }}">
+        <a class="nav-link" style="color: #eef6a4;" href="saturn.html">
+            <img src="saturn.png" style="height: 30px;">
+            Saturn
+        </a>
+    </span>
+    <span class="{{ uranus_classes }}">
+        <a class="nav-link" style="color: #eef6a4;" href="uranus.html">
+            <img src="uranus.png" style="height: 30px;">
+            Uranus
+        </a>
+    </span>
+    <span class="{{ neptune_classes }}">
+        <a class="nav-link" style="color: #eef6a4;" href="neptune.html">
+            <img src="neptune.png" style="height: 30px;">
+            Neptune
+        </a>
+    </span>
+</nav>
+<div class="container">
+    <div class="next">
+        <a role="button" class="btn btn-outline-info" style="font-size: 48px;" href="jupiter.html">
+            <i class="fa-solid fa-circle-right" style="color: #f9c10a; font-size: 48px; margin-top: 2%;"></i>
+        </a>
+    </div>
+    <div class="row" style="z-index: -10; margin-left: 1%;">
+        <div class="col-3">
+    
+        </div>
+        <div class="col-7">
+            <h1 style="opacity: 0.6; font-size: 150px;">
+                <span class="auto-type"></span>
+            </h1>
+            <p style="color: #b95a29; opacity: 0.9; margin-top: 5%; font-size: 25px; font-weight: bold;">
+                <span class="auto-type-content"></span>
+            </p>
+            <p style="color: #b95a29; opacity: 0.8; margin-top: 5%; font-size: 25px; font-weight: bold;">
+                <span class="auto-type-content-2"></span>
+            </p>
+            <p style="color: #b95a29; opacity: 0.8; margin-top: 5%; font-size: 25px; font-weight: bold;">
+                <span class="auto-type-content-4"></span>
+            </p>
+            <p style="opacity: 0.6; margin-top: 2%; font-size: 18px;">
+                <a href="https://science.nasa.gov/mars/facts/" style="color: #f9c10b;">
+                    <span class="auto-type-content-3"></span>
+                </a>
+            </p>
+        </div>
+        <div class="col-2">
+    
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["M a r s"],
+            typeSpeed: 150,
+            loop: false
+        })
+
+        var typed = new Typed(".auto-type-content", {
+            strings: ["Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape. NASA missions have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago."],
+            typeSpeed: 10,
+            loop: false
+        })
+
+        var typed = new Typed(".auto-type-content-2", {
+            strings: ["Mars was named by the Romans for their god of war because its reddish color was reminiscent of blood. The Egyptians called it \"Her Desher,\" meaning \"the red one.\"​"],
+            typeSpeed: 15,
+            loop: false
+        })
+
+        var typed = new Typed(".auto-type-content-4", {
+            strings: ["Even today, it is frequently called the \"Red Planet\" because iron minerals in the Martian dirt oxidize, or rust, causing the surface to look red.​"],
+            typeSpeed: 15,
+            loop: false
+        })
+
+        var typed = new Typed(".auto-type-content-3", {
+            strings: ["Source NASA"],
+            typeSpeed: 500,
+            loop: false
+        })
+    </script>
+</div>
+<div class="logo">
+    <a href="home.html">
+        <img src="astronomy-high-resolution-logo-white-transparent.png"
+             style="height: 200px;">
+        <img src="astronomy-high-resolution-logo-transparent.png"
+             style="height: 200px;">
+    </a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+<script src="../static/js/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
