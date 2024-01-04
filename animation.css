@@ -263,3 +263,23 @@ p {
     height: 620px;
     width: 620px;
 }
+
+.logo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+  
+.logo a img:last-child {
+    display: none;
+}
+
+.logo a:hover img:last-child {
+    display: block;
+}
+
+.logo a:hover img:first-child {
+    display: none;
+}
